@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  height: 60px;
+  background-color: gray;
+
+  .header_button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    .header_button_img {
+      width: 19px;
+      height: 19px;
+      background-repeat: no-repeat;
+    }
+
+    .header_itemsCount {
+      padding: 0 10px;
+    }
+  }
+}
